@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <meta charset="UTF-8" />
+    <title>Validar Formulario</title>
+    <body>
+        <div class="container">
+            <h1>Validar Formulario</h1>
+            <form id="form1" action="/submit" method="post">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Email">
+
+                    <label for="endereco">Endereco</label>
+                    <textarea type="endereco" id="endereco" name="endereco" required></textarea>
+                    
+                    <label for="dob">Ano de nascimento</label>
+                    <input id="date" name="dob" required />
+                    
+                    <label for="genero">Genero</label>
+                    <input type="radio" id="masculino" name="genero" value="masculino" /> 
+                    <label for="masculino1">Masculino</label>
+                    <button type="submit">Enviar</button>
+            </form>
+
+            <div class="form-container">
+            <h1>Validar Formulario</h1>
+            <form id="form2" action="/submit" method="post">
+                    <label for="dob">Ano de nascimento</label>
+                    <input type="date" id="dob2" name="dob" required />
+
+                    <label for="genero">Genero</label>
+                    <input type="radio" id="masculino" name="genero" value= "masculino" />
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" id="feminino" name="genero" value="feminino" />
+                    <label for="feminino">Feminino</label>
+                    <input type="radio" id="outro" name="genero" value="outro" /> 
+                    <label for="outro">Outro</label>
+                    <input type="radio" id="nulo" name="genero" value="nulo" />
+                    <label for="nulo">Prefiro nao responder</label>
+
+                </form>
+
+            </div>
+        </div>
+    </body>
+</html>
